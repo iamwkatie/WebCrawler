@@ -6,6 +6,7 @@
 class URL {
 private:
     std::string url;
+    //std::string urlext;
 public:
     // URL(std::string url);
     URL() {}
