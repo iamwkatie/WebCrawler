@@ -7,7 +7,7 @@
 size_t WebCurl::writeCallback(char *buf, size_t size, size_t nmemb, void *up) {
     //callback must have this declaration
     //buf is a pointer to the data that curl has for us
-    //size*nmemb is the size of the buffer
+    //size * nmemb is the size of the buffer
     ((std::string *)up)->append((char *)buf, size * nmemb);
     return size * nmemb; //tell curl how many bytes we handled
 }
