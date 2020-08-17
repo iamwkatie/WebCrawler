@@ -9,7 +9,7 @@
 #include <unordered_set>
 #include <functional>
 
-class ThreadPool; // forward declare
+class ThreadPool; // forward declare //
 
 class Worker {
 public:
