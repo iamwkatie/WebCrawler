@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.9)
+cmake_minimum_required(VERSION 4.0)
 
 option(HUNTER "Use hunter package manager" ${WIN32})
 
