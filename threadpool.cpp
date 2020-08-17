@@ -50,3 +50,5 @@ size_t ThreadPool::getAmountFreeWorkers() {
     std::lock_guard<std::mutex> workLocker(workersLocker);
     return freeWorkers.size();
 }
+
+//
