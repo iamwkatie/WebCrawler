@@ -10,4 +10,4 @@ public:
     static std::string getPage(const std::string &url);
 };
 
-#endif // WCURL_H
+#endif // WCURL_H //
