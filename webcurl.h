@@ -1,6 +1,5 @@
 #ifndef WCURL_H
 #define WCURL_H
-
 #include <string>
 
 class WebCurl {
