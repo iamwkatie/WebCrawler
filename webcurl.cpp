@@ -1,7 +1,6 @@
 #include <stdexcept>
 #include <string>
 #include <curl/curl.h>
-
 #include "webcurl.h"
 
 size_t WebCurl::writeCallback(char *buf, size_t size, size_t nmemb, void *up) {
