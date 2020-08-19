@@ -5,7 +5,9 @@
 #include <condition_variable>
 #include <iostream>
 #include <chrono>
+//#include <signal>
 #include "threadpool.h"
+
 
 void Worker::operator()() {
     std::function<void()> task;
