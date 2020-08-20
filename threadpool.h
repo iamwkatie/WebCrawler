@@ -10,7 +10,7 @@
 #include <functional>
 //#include "signal.h"
 
-class ThreadPool; // forward declare //
+class ThreadPool; // forward declare 
 
 class Worker {
 public:
