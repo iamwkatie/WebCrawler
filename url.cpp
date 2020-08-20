@@ -2,7 +2,6 @@
 #include <iostream>
 #include <stdexcept>
 #include <regex>
-
 #include "url.h"
 
 //
