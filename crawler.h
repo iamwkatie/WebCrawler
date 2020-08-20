@@ -8,7 +8,6 @@
 #include <condition_variable>
 #include <mutex>
 #include <memory>
-// #include "tinyxml2.h"
 #include "gumbo.h"
 
 class ThreadPool;
