@@ -2,6 +2,8 @@
 #include <string>
 #include <curl/curl.h>
 #include "webcurl.h"
+//#include "signal.h"
+
 
 size_t WebCurl::writeCallback(char *buf, size_t size, size_t nmemb, void *up) {
     //callback must have this declaration
