@@ -501,7 +501,7 @@ macro(HunterGate)
       set(_done_location "${_archive_id_location}/DONE")
       set(_sha1_location "${_archive_id_location}/SHA1")
 
-      # Check Hunter already downloaded by HunterGate
+      ## Check Hunter already downloaded by HunterGate
       if(NOT EXISTS "${_done_location}")
         hunter_gate_download("${_archive_id_location}")
       endif()
