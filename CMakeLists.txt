@@ -27,11 +27,13 @@ if(${HUNTER})
     find_package(spdlog REQUIRED)
 
     set(LIBS CURL::libcurl cxxopts::cxxopts gumbo::gumbo "mysqlclient" spdlog::spdlog)
+    
 else()
     find_package(CURL REQUIRED)
     find_package(spdlog REQUIRED)
     include_directories(SYSTEM cxxopts/include)
     set(LIBS curl gumbo mysqlclient spdlog::spdlog pthread)
+    
 endif()
 
 file(GLOB HEADERS ${PROJECT_SOURCE_DIR}/*.h)
