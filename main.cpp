@@ -7,6 +7,7 @@
 #include <curl/curl.h>
 #include <mysql/mysql.h>
 //#include <mysql/xml.h>
+//#include <mysql/json.h>
 #include "cxxopts.hpp"
 #include "crawler.h"
 
