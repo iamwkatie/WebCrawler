@@ -1,6 +1,7 @@
 #ifndef URL_H
 #define URL_H
 #include <string>
+//#include "signal.h"
 
 class URL {
 private:
