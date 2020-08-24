@@ -2,7 +2,7 @@
 # Created by https://www.gitignore.io/api/c++,cmake,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=c++,cmake,visualstudiocode
 
-### C++ ###
+### C++ ####
 # Prerequisites
 *.d
 
