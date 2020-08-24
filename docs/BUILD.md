@@ -6,5 +6,5 @@ In order to build this project, you will need the following dependencies:
 A ready to use Vagrant build environment is already here!
 In order to use it, run `vagrant up`, then start ssh if you wish with `vagrant ssh`
 
-## Starting the build
+## Starting the build ##
 cmake -DHUNTER=ON .
