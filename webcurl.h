@@ -2,7 +2,6 @@
 #define WCURL_H
 
 #include <string>
-//#include "signal.h"
 
 class WebCurl {
 private:
