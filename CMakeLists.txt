@@ -23,7 +23,7 @@ if(${HUNTER})
     find_package(CURL REQUIRED)
     find_package(cxxopts REQUIRED)
     find_package(gumbo REQUIRED)
-    # find_package(MySQL-client REQUIRED)
+    # find_package(MySQL-client REQUIRED) #
     find_package(spdlog REQUIRED)
 
     set(LIBS CURL::libcurl cxxopts::cxxopts gumbo::gumbo "mysqlclient" spdlog::spdlog)
