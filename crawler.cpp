@@ -18,6 +18,7 @@
 #include "crawler.h"
 #include "url.h"
 #include "threadpool.h"
+#include "signal.h"
 
 namespace webcrawler
 {
